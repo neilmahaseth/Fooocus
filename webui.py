@@ -442,7 +442,7 @@ with shared.gradio_root:
                         disable_seed_increment = gr.Checkbox(label='Disable seed increment',
                                                              info='Disable automatic seed increment when image number is > 1.',
                                                              value=False)
-                        read_wildcards_in_order = gr.Checkbox(label="Read wildcards in order", value=False)
+                        read_wildcards_in_order = gr.Checkbox(label="Read wildcards in order", value=True)
 
                         if not args_manager.args.disable_metadata:
                             save_metadata_to_images = gr.Checkbox(label='Save Metadata to Images', value=modules.config.default_save_metadata_to_images,

@@ -23,5 +23,5 @@
     ],
 	"default_refiner": "juggernautXL_v8Rundiffusion.safetensors",
 	"default_refiner_switch": 0.8,
-	"default_save_metadata_to_images": false
+	"default_save_metadata_to_images": true
 }

@@ -1,0 +1,27 @@
+{
+    "path_checkpoints": [
+        "/content/Fooocus/models/checkpoints"
+    ],
+    "path_loras": [
+        "/content/Fooocus/models/loras"
+    ],
+    "path_embeddings": "/content/Fooocus/models/embeddings",
+    "path_vae_approx": "/content/Fooocus/models/vae_approx",
+    "path_upscale_models": "/content/Fooocus/models/upscale_models",
+    "path_inpaint": "/content/Fooocus/models/inpaint",
+    "path_controlnet": "/content/Fooocus/models/controlnet",
+    "path_clip_vision": "/content/Fooocus/models/clip_vision",
+    "path_fooocus_expansion": "/content/Fooocus/models/prompt_expansion/fooocus_expansion",
+    "path_wildcards": "/content/drive/MyDrive/Fooocus/wildcards/",
+    "path_outputs": "/content/drive/MyDrive/Fooocus/outputs/",
+	"default_aspect_ratio": "1472*704",
+	"default_styles": [
+        "Fooocus V2",
+        "Fooocus Enhance",
+		"Fooocus Photograph",
+        "Fooocus Sharp"
+    ],
+	"default_refiner": "juggernautXL_v8Rundiffusion.safetensors",
+	"default_refiner_switch": 0.8,
+	"default_save_metadata_to_images": True
+}
